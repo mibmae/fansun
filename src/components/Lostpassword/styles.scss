@@ -1,0 +1,93 @@
+.lostpassword {
+    // display: flex;
+   
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 11rem auto;
+    @media screen and (max-width: 600px) and (orientation: portrait) {
+       margin: 8rem auto;
+    }
+    &_title {
+        color: #222;
+    font-family: montserrat,Sans-serif;
+    line-height: 2.2em;
+    letter-spacing: 10px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    }
+}
+
+.inputemail {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.plost {
+    display: flex;
+    width: 30%;
+    text-align: center;
+    // margin-left: auto;
+    // margin-right: auto;
+    // margin-top: 1rem;
+    // margin-bottom: 1rem;
+    margin: 1rem auto 1rem auto;
+    @media screen and (max-width: 600px) and (orientation: portrait) {
+        width: 100%;
+        padding: 1rem;
+    }
+    @media screen and (max-width: 800px) and (orientation: landscape) {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+$primary: #CEAB8D;
+.lost { 
+    display: flex;
+    input {
+        display: block;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    -webkit-transition: border-width .2s ease;
+    transition: border-width .2s ease;
+    border-radius: 2px;
+    color: #ccc;
+    margin-right: 1rem;
+    }
+    &+ i.fa {
+        color: #fff;
+      font-size: 1em;
+      position: absolute;
+      margin-top: -47px;
+      opacity: 0;
+      left: 0;
+      transition: all 0.1s ease-in;
+    }
+    &:focus {
+        &+ i.fa {
+          opacity: 1;
+          left: 30px;
+        transition: all 0.25s ease-out;
+        }
+        outline: none;
+        color: #444;
+        border-color: $primary;
+        border-left-width: 35px;
+      }
+      
+}
+.button_send {
+border-radius: 10px;
+    background-color: #ceab8d;
+    color: #fff;
+    border: 1px solid #ceab8d;
+    padding: 0.5rem;
+    font-size: 1rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+}

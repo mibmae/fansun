@@ -1,0 +1,52 @@
+@use 'src/styles/vars.scss' as v;
+.header {
+    // display: flex;
+    width: 100%;
+    background-color: white;
+    color: black;
+    z-index: 9999;
+    // height: 6rem;
+    // margin-top: -1.5rem;
+    &_title {
+        text-align: center;
+        width: 100%;
+        margin-top: 1.5rem;
+        display: flex;
+    }
+}
+
+.line {
+    width: 100%;
+    background-color: v.$color;
+    height: 45px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    align-items: center;
+    color: white;
+    @media screen and (max-width: 500px) {
+        height: 75px;
+        }
+
+}
+
+.contacts_line {
+    display: flex;
+    margin-right: 16rem;
+    @media screen and (max-width: 500px) {
+        margin-right: 1rem;
+        font-size: 10px;
+        }
+}
+
+.icon {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    margin-top: 0.1rem;
+    &_phone {
+        font-size: 0.8rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: 0.1rem;
+    }
+}

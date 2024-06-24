@@ -1,9 +1,19 @@
+
 .app {
-  width: 500px;
-  margin: 1em auto;
-  text-align: center;
+margin: 0;
+background-color: white;
 }
 
-.app img {
-  max-width: 150px;
+
+
+a {
+  text-decoration: none!important;
+  color: inherit!important;
+}
+
+.smallHead {
+  height: 3.8rem;
+  margin-top: 0.7rem;
+  width: 6%;
+
 }

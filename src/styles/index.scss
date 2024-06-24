@@ -1,9 +1,117 @@
-@use 'reset';
-@use 'vars';
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&display=swap');
 body {
-  font-family: sans-serif;
+  color: #57595a!important;
+  // font-family: 'open sans',sans-serif!important;
+  // font-family: 'ABeeZee', sans-serif!important;
+  
+  font-family: 'Montserrat',sans-serif!important;
+  // font-family: 'Montserrat', sans-serif;
+      font-size: 13pt!important;
+    font-weight: 500!important;
+    line-height: 1.65!important;
 }
+
+.swiper-scrollbar {
+  display: none!important;
+}
+
+.fb_iframe_widget {
+  margin-left: 1rem;
+}
+#planity {
+  display: flex;
+    min-height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.css-41rnzx {
+  display: block!important;
+  width: 38%;
+}
+
+#planitywl {
+  width: 100%;
+}
+
+.planity-component-button, .css-wxsg07 {
+
+  // width: 10%!important;
+  background-color: #CEAB8D;
+  &:hover {
+    color: white;
+  }
+  font-family: 'ABeeZee', sans-serif!important;
+}
+
+.planity-nav-button-active {
+  width: 11rem!important;
+}
+
+.planity_appointment_step_wrapper, .css-1b689ef, .planity_ui_appointment_background {
+  width: 100%!important;
+}
+
+.css-g30nar, [data-css-g30nar] {
+  width: 14%!important;
+}
+
+.css-1tqbinc {
+  height: 100%;
+    padding: 0px 5% 26px;
+    display: flex;
+    border-radius: 4px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    max-height: 1185px;
+}
+
+.css-1h46lvz, [data-css-1h46lvz] {
+  width: 100%!important;
+  margin-left: 2.3rem;
+}
+.css-nd436o {
+  margin-top: -2rem!important;
+}
+
+.planity_appointment-availabilities-header {
+  width: 100%!important;
+}
+
+.planity-component-button, .css-f822ll, .css-1qfb1db {
+  // width: 10%!important;
+  background-color: #CEAB8D;
+  &:hover {
+    color: white;
+  }
+  font-family: 'ABeeZee', sans-serif!important;
+}
+
+.css-1t62idy {
+  font-family: 'ABeeZee', sans-serif!important;
+
+}
+.css-41rnzx {
+  display: block!important;
+  width: 38%;
+  border: 1px solid #CEAB8D !important;
+  padding: 1rem;
+}
+
+.css-1qfb1db {
+  margin-top: 1rem;
+}
+
+.planity_appointment_step_wrapper {
+  border: 1px solid var(--primary) !important;
+}
+
+.planity_appointment_service_cell, .css-4z3ubn {
+  font-weight: 700;
+}
+
 
 /* 
   // or you can import your own font
@@ -15,3 +123,6 @@ body {
     font-family: 'Roboto', sans-serif;
   }
 */
+
+
+

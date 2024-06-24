@@ -1,0 +1,34 @@
+@use 'src/styles/vars.scss' as v;
+.mentions {
+    // display: flex;
+    height: 100%;
+    width: 100%;
+    
+    align-items: center;
+    margin-top: -3rem;
+    padding: 5rem;
+
+}
+
+.mentions_title {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: x-large;
+
+}
+
+.contain_mentions {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.item_mentions {
+    flex-wrap: wrap;
+}
+
+.item_mentions_title {
+    font-size: large;
+}

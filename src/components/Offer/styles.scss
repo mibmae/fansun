@@ -1,0 +1,60 @@
+.modalOffer {
+    height: 50%;
+    width: 50%;
+}
+
+.css-1gbtfgq {
+    width: 600px;
+    @media screen and (max-width: 600px) and (orientation: portrait) {
+        width: 80%!important;
+        margin: 0 auto!important;
+    }
+}
+.MuiBox-root {
+    padding: 0!important;
+    width: 600px!important;
+    @media screen and (max-width: 600px) and (orientation: portrait) {
+        width: 80%!important;
+        margin: 0 auto!important;
+    }
+    @media screen and (max-width: 800px) and (orientation: landscape) {
+        width: 50%!important;
+        height: 40%!important;
+        margin: -5rem auto!important;
+    }
+}
+
+.closeBtnPuB {
+    // display: flex;
+    // position: absolute;
+    // font-size: 2rem;
+    // right: 152px;
+    // top: 10px;
+    display: flex;
+    position: absolute;
+    font-size: 2rem;
+    right: -2rem;
+    top: -33px;
+    cursor: pointer;
+    z-index: 9999;
+    color: white;
+
+    &:hover {
+        color: red;
+    }
+}
+
+.offerdownlabel {
+    font-size: 10px!important;
+}
+
+
+
+.seenlabel {
+    margin-left: 0.5rem;
+    font-size: 10px!important;
+}
+
+.padding-modal {
+    padding: 1rem;
+}

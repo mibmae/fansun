@@ -15,7 +15,7 @@ import { increment, decrement } from '../actions';
  * Pas de data à transmettre ? const mapStateToProps = null;
  */
 const mapStateToProps = (state, ownProps) => ({
-  count: state.counter.value,
+  count: 0,
 });
 
 /* === Actions ===

@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
-import counter from './counter';
+import Cart from './cart';
+import User from './user';
 
 export default combineReducers({
-  counter,
+  Cart,
+  User,
 });

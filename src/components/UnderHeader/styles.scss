@@ -1,0 +1,405 @@
+@use 'src/styles/vars.scss' as v;
+.underHeader {
+    // animation: fadeIn 5s;
+//     animation: fadein 3s;
+// -moz-animation: fadein 3s; /* Firefox */
+// -webkit-animation: fadein 3s; /* Safari and Chrome */
+// -o-animation: fadein 3s; /* Opera */
+        width:100%;
+        // height:84.7vh;
+        height:59.7vh;
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -28rem;
+    display: flex;
+    align-content: space-between;
+    border-bottom: 6px solid v.$color;
+    @media screen and (min-width: 769px) and (max-width: 1280px) {
+        height: 90vh!important;
+        background-position: 0 0;
+        }
+        // @media screen and (max-width: 500px) {
+            @media only screen and (max-width: 768px) {
+            height: 85vh!important;
+            width: 100vw;
+            background-position: -327px 0;
+            }
+            @media screen and (max-width: 500px) {
+                height: 91vh!important;
+                }
+ 
+                @media only screen and (min-width : 321px) and (max-width: 801px) and (orientation: landscape) {
+                    background-position: 0px 0;
+                height: 82vh!important;
+            }
+
+//             -webkit-background-size: cover;
+//             -moz-background-size: cover;
+//             -o-background-size: cover;
+//             background-size: cover;
+        
+//             -webkit-animation: myfirst 4s ; /* Chrome, Safari, Opera */
+//             animation: myfirst 4s infinite ;
+
+//   /* Standard syntax */
+//   @keyframes myfirst {
+//     from {opacity: 0.2;}
+//     to {opacity: 1;}
+//   }
+}
+
+.divOpa {
+
+    position: relative;
+    top: 56%;
+    /* background-color: #fff; */
+    /* opacity: .5; */
+    bottom: 0;
+    background: rgba(255,255,255, .7);
+    height: 14.8rem;
+    width: 100%;
+    // // position: absolute;
+    // position: relative;
+    // top: 56%;
+    // // border-left: 1px solid blue;
+    // background-color: white;
+    // opacity: 0.5;
+    // bottom: 0;
+    // height: 15rem;
+    // // width: 70%;
+    // width: 100%;
+    // @media screen and (min-width: 501px) and (max-width: 1280px) {
+    //     height: 15rem!important;
+    //     top: 65%;
+    //     background-position: 0 0;
+    //     }
+
+    //     @media only screen and (min-width : 321px) and (max-width: 801px) and (orientation: landscape) {
+    //         height: 7.9rem!important;
+    // top: 56.2%;
+    //     }
+    //     @media only screen and (width : 723px) {
+    //         height: 10rem!important;
+    //         top: 28.8%;
+    //     }
+    @media screen and (min-width: 501px) and (max-width: 1281px) {
+        // height: 15rem!important;
+        // position: absolute;
+        top: 30%;
+        height: 12.7rem;
+        
+        // background-position: 0 0;
+        }
+        @media screen and (max-width: 640px) {
+
+        top: 54.9%;
+        // top: 58.3%;
+        }
+        @media screen and (max-width: 640px) and (orientation: landscape) {
+
+        top: 30.7%;
+        }
+        @media screen and (width: 1366px) and (orientation: landscape) {
+
+        top: 47%;
+        }
+        @media only screen and (min-width : 799px) and (max-width: 830px) and (orientation: portrait) {
+            top: 72.3vh;
+            position: relative;
+        }
+        @media screen and (width: 1366px) {
+            top: 47.5%!important;
+        }
+
+}
+
+.divOpaRight {
+    margin-top: 19rem;
+    top: 10rem;
+    left: 100%;
+    opacity: 1;
+    background-color: v.$color;
+    height: 15.1rem;
+    width: 25rem;
+    border-radius: 0 10rem 0 0;
+    border-right: 1px solid v.$color;
+}
+
+.left_text {
+    display: flex;
+    background-color: white;
+    width: 39%;
+    position:relative;
+    top: 12rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 26%;
+    opacity: 0.7!important;
+    @media screen and (max-width: 500px) {
+        width: 80%;
+        }
+        // width: 50%;
+        // align-content: space-between;
+    
+    &_text {
+        opacity: 1;
+        color: v.$color;
+        font-size: larger;
+        font-weight: bolder;
+        @media screen and (max-width: 500px) {
+            font-size: 1rem;
+            }
+    }
+}
+.right_text {
+    display: flex;
+    background-color: white;
+    width: 39%;
+    position:relative;
+    top: 12rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 35%;
+    // opacity: 0.7!important;
+    @media screen and (max-width: 500px) {
+        width: 80%;
+        }
+        // width: 50%;
+        // align-content: space-between;
+    
+    &_text {
+        opacity: 1!important;
+        color: v.$color;
+        font-weight: bolder;
+        // z-index: 999;
+        font-size: larger;
+        // font-weight: bold;
+        @media screen and (max-width: 500px) {
+            font-size: 1rem;
+            }
+    }
+}
+
+.title_underheader {
+    // position: absolute;
+    // top: 31rem;
+    // display: -webkit-box;
+    // display: -ms-flexbox;
+    // display: flex;
+    // color: #000;
+    
+    opacity: 1;
+    z-index: 3;
+    color: #222;
+    font-family: montserrat,Sans-serif;
+    line-height: 2.2em;
+    letter-spacing: 10px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1rem auto;
+  
+    @media screen and (max-width: 500px) {
+        width: 80%;
+        // position: absolute;
+    top: 30.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #000;
+    opacity: 1;
+    z-index: 3;
+    color: #222;
+    font-family: montserrat,Sans-serif;
+    line-height: 2.2em;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 0 auto;
+    left: 11%;
+        }
+        @media screen and (min-width: 501px) and (max-width: 1281px) {
+            // height: 15rem!important;
+            // position: absolute;
+            top: unset;
+            left: 2rem;
+            bottom: 5rem;
+            // background-position: 0 0;
+            }
+            @media only screen and (min-width : 321px) and (max-width: 801px) and (orientation: landscape) {
+                
+                font-size: 1rem;
+            }
+            @media only screen and (width : 723px) {
+                font-size: 1rem;
+                bottom: 3rem;
+            }
+
+        //     @media  screen and (max-width: 1280px) {
+        //        left: 25%;
+        //        width: 100%;
+        //         bottom: 7rem;      
+        //   }
+            
+    &_log {
+        // color: #DFCD7F;
+        // position: absolute;
+        top: 26rem;
+        left: 50%;
+        font-family: montserrat,Sans-serif;
+    line-height: 2.2em;
+    letter-spacing: 10px;
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-align: center;
+    @media screen and (max-width: 500px) {
+        top: 27rem;
+        left: 28%;
+    }
+    @media screen and (min-width: 501px) and (max-width: 1281px) {
+        // height: 15rem!important;
+       top: 34rem;
+       left: 16rem;
+        // background-position: 0 0;
+        }
+        @media only screen and (min-width : 321px) and (max-width: 801px) and (orientation: landscape) {
+            top: 14rem;
+            left: 19.5rem;
+        }
+        @media only screen and (width : 640px) {
+            left: 16rem;
+            top: 13rem;
+        }
+        @media only screen and (width : 723px) {
+            left: 18rem;
+            top: 8rem;
+        }
+    //     @media  screen and (max-width: 1280px) {
+    //         left: 45%;
+    //         // width: 100%;
+    //          top: 36rem;      
+    //    }
+    // z-index: 9999;
+    }
+    &_button {
+        // position: absolute;
+        text-align: center;
+        margin: 3rem auto;
+        top: 36rem;
+        left: 50.6%;
+        @media screen and (min-width: 501px) and (max-width: 1281px) {
+            // height: 15rem!important;
+           top: 44rem;
+           left: 16rem;
+            // background-position: 0 0;
+            }
+            @media screen and (max-width: 500px) {
+                // position: absolute;
+                top: 35rem;
+                left: 30.6%;
+                }
+                @media only screen and (min-width : 321px) and (max-width: 801px) and (orientation: landscape) {
+                    top: 19.5rem;
+                    left: 20rem;
+                    
+                    // display: none;
+                }
+                @media only screen and (width : 723px) {
+                    top: 14.5rem;
+                    left: 20rem;
+                
+                }
+                @media screen and (min-width: 501px) and (max-width: 1281px) {
+                    margin: 1rem auto;
+                }
+                
+    }
+   
+}
+
+.modal-footer {
+    position: absolute;
+    bottom: -5rem;
+    right: -0.99rem;
+    border: none!important;
+    @media screen and (min-width: 501px) and (max-width: 1281px) {
+        margin: 1rem auto;
+    }
+    @media screen and (max-width: 500px) {
+        margin: 4rem auto!important;
+        bottom: -7rem;
+        right: 1rem;
+    }
+}
+// .modal-footer {
+//     @media screen and (max-width: 500px) {
+//     }
+// }
+
+.button_prestas {
+    border-radius: 10px;
+    background-color: v.$color;
+    color: white!important;
+    border: 1px solid v.$color;
+    padding: 0.5rem;
+    font-size: 1rem;
+    @media only screen and (min-width : 321px) and (max-width: 801px) and (orientation: landscape) {
+        height: 2rem;
+        font-size: 15px;
+        width: 10rem;
+        padding: 0rem;
+        margin-top: 0.3rem;
+    }
+    
+}
+
+.title_underheader_container {
+    display: block;
+}
+
+@keyframes fadein {
+    from {
+    opacity:0;
+    }
+    to {
+    opacity:1;
+    }
+    }
+    @-moz-keyframes fadein { /* Firefox */
+    from {
+    opacity:0;
+    }
+    to {
+    opacity:1;
+    }
+    }
+    @-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+    opacity:0;
+    }
+    to {
+    opacity:1;
+    }
+}
+
+.fade {
+    animation: fading 1s forwards; // "fading" is the keyframe animation you created
+}
+
+.logofont {
+    width: 20%;
+    margin-top: 1rem;
+    @media screen and (max-width: 640px) {
+        width: 47%;
+    }
+    @media only screen and (min-width : 321px) and (max-width: 801px) and (orientation: landscape) {
+        width: 33%;
+    }
+    filter: drop-shadow(-1px 0px 3px #CEAB8D);
+    // filter: drop-shadow(-1px 0px 3px black);
+}
+
+.title_underheader_button {
+    margin-top: 2.6rem;
+}
